@@ -1,0 +1,67 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "로지텍 G903 HERO WIRELESS",
+      "provider": "로지텍",
+      "price": 159000,
+      "image": "/images/로지텍마우스1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "로지텍 G PRO X SUPERLIGHT",
+      "provider": "로지텍",
+      "price": 199000,
+      "image": "/images/로지텍마우스2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "BENQ ZOWIE EC2-C 마우스",
+      "provider": "조위기어",
+      "price": 109000,
+      "image": "/images/조위기어마우스1.jpg"
+    },
+    {
+      "id": 4,
+      "name": "레오폴드 FC900RBT 화이트",
+      "provider": "레오폴드",
+      "price": 178000,
+      "image": "/images/레오폴드키보드1.jpg"
+    },
+    {
+      "id": 5,
+      "name": "K63 텐키리스 기계식 적축",
+      "provider": "커세어",
+      "price": 119000,
+      "image": "/images/커세어키보드1.jpg"
+    },
+    {
+      "id": 6,
+      "name": "K70 RGB MK.2 은축 SE",
+      "provider": "커세어",
+      "price": 279000,
+      "image": "/images/커세어키보드2.jpg"
+    },
+    {
+      "id": 7,
+      "name": "로지텍 G840 K/DA XL 장패드",
+      "provider": "로지텍",
+      "price": 64900,
+      "image": "/images/로지텍패드1.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Steelseries Qck Heavy",
+      "provider": "스틸시리즈",
+      "price": 43000,
+      "image": "/images/스틸시리즈패드1.jpg"
+    },
+    {
+      "id": 9,
+      "name": "레이져 Razer Gigantus Elite",
+      "provider": "레이져",
+      "price": 40000,
+      "image": "/images/레이져패드1.jpg"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+body {
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+ul {
+  list-style: none;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer {
+    margin-top: 5em;
+    padding: 70px 0;
+    border-top: 1px solid;
+  }
+
+.footer_col {
+    width: 25%;
+    padding: 0 15px;
+  }
+  
+  .footer_col h4 {
+    font-size: 19px;
+    color: black;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+  }
+  
+  .footer_col h4::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    height: 2px;
+    width: 50px;
+    background-color: green;
+  }
+  
+  .footer_col ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer_col ul li a {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  .footer_col ul li a:hover {
+    color: green;
+    padding-left: 10px;
+  }
+  
+  .footer_col .social_links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    background-color:black;
+    color: #fff;
+    transition: all 0.5s ease;
+  }
+  
+  .footer_col .social_links a:hover {
+    color:green;
+    background-color:black;
+    transform: scale(1.1);
+  }
+  
+  @media (max-width: 767px) {
+    .footer_col {
+      width: 50%;
+      margin-bottom: 40px;
+    }
+  }
+  @media (max-width: 574px) {
+    .footer_col {
+      width: 100%;
+    }
+  }
+  
+
+
+  /* ///////// */
+
+  .scrolltop {
+    position: fixed;
+    right: 20px;
+    bottom: 22px;
+    font-size: 20px;
+    color: #FFF!important;
+    z-index: 99;
+    background: #232b2d;
+    padding: 6px 12px;
+    border-radius: 2px;
+    opacity: 0;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .scrolltop span {
+    display: block;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: -4px;
+  }
+  
+  .fix{
+    opacity: .8;
+  }
+  
+  .scrolltop:hover{
+    opacity: 1.5;
+  }

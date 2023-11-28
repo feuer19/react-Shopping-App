@@ -109,8 +109,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
   border: 1px solid #c4c4c4;
-  border-top:none;
-  border-bottom:none;
+  border-top: none;
+  border-bottom: none;
 }
 
 .amount .count span {
@@ -214,8 +214,8 @@
 }
 
 .btn_buy:hover,
-.btn_cart:hover{
-  transform: scale(0.9);
+.btn_cart:hover {
+  transform: scale(0.97);
 }
 
 @media (max-width: 1440px) {

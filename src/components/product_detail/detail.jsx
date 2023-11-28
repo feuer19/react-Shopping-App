@@ -67,7 +67,7 @@ export const Detail = ({ convertPrice, cart, setCart }) => {
             <div className={styles.amount}>
               <img
                 className={styles.minus}
-                src="/images/icon-minus-line.svg"
+                src="/images/icons/icon-minus-line.svg"
                 alt="minus"
                 onClick={() => handleQuantity("minus")}
               />
@@ -78,7 +78,7 @@ export const Detail = ({ convertPrice, cart, setCart }) => {
 
               <img
                 className={styles.plus}
-                src="/images/icon-plus-line.svg"
+                src="/images/icons/icon-plus-line.svg"
                 alt="plus"
                 onClick={() => handleQuantity("plus")}
               />

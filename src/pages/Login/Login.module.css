@@ -168,7 +168,7 @@ hr {
 .input_google:hover,
 .input_twitter:hover,
 .input_submit:hover {
-  transform: scale(0.95);
+  transform: scale(0.97);
   opacity: 0.9;
 }
 

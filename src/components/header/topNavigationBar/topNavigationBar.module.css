@@ -125,7 +125,7 @@
 .shopping_cart:hover,
 .mypage:hover,
 .mypage2:hover {
-  transform: scale(0.9);
+  transform: scale(0.93);
 }
 
 @media (max-width: 768px) {

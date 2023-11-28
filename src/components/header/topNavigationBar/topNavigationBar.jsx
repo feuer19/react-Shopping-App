@@ -19,7 +19,7 @@ export const TopNavigationBar = ({ cart, products, setproducts }) => {
       <div className={styles.inner}>
         <Link to="/">
           <h1 className={styles.logo}>
-            <img src="/images/HomePageIcon.png" alt="logo" />
+            <img src="/images/icons/HomePageIcon.png" alt="logo" />
           </h1>
         </Link>
         <div className={styles.input_wrap}>
@@ -28,14 +28,14 @@ export const TopNavigationBar = ({ cart, products, setproducts }) => {
             placeholder="상품을 검색해보세요!"
             onChange={onChangeSearch}
           />
-          <img src="/images/icon-search.svg" alt="search" />
+          <img src="/images/icons/icon-search.svg" alt="search" />
         </div>
       </div>
 
       <div className={styles.menu}>
         <Link to="/cart">
           <div className={styles.shopping_cart}>
-            <img src="/images/icon-shopping-cart.svg" alt="cart" />
+            <img src="/images/icons/icon-shopping-cart.svg" alt="cart" />
             <span>장바구니</span>
             {cart.length >= 1 ? (
               <div className={styles.new_shopping_cart}>
@@ -48,13 +48,13 @@ export const TopNavigationBar = ({ cart, products, setproducts }) => {
         </Link>
         <Link to="/Login">
           <div className={styles.mypage}>
-            <img src="/images/icon-user.svg" alt="user" />
+            <img src="/images/icons/icon-user.svg" alt="user" />
             <span>로그인</span>
           </div>
         </Link>
         <Link to="/Registration">
           <div className={styles.mypage2}>
-            <img src="/images/icon-user.svg" alt="user" />
+            <img src="/images/icons/icon-user.svg" alt="user" />
             <span>회원가입</span>
           </div>
         </Link>

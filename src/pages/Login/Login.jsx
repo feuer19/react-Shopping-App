@@ -118,11 +118,11 @@ const Login = () => {
         </div>
         <div className={styles.social_sign_in}>
           <button className={styles.input_google}>
-            <img src="images/google.png" alt="google" />
+            <img src="images/icons/google.png" alt="google" />
             <p>Login with Google</p>
           </button>
           <button className={styles.input_twitter}>
-            <img src="images/twitter.png" alt="twitter" />
+            <img src="images/icons/twitter.png" alt="twitter" />
           </button>
         </div>
       </div>

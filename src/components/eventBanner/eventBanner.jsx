@@ -45,9 +45,9 @@ export const EventBanner = () => {
     <article className={styles.banner}>
       <div className={styles.album}>
         <div className={styles.images} style={style}>
-          <img src="images/banner1.png" />
-          <img src="images/banner2.png" />
-          <img src="images/banner3.png" />
+          <img src="images/banner/banner1.png" />
+          <img src="images/banner/banner2.jpg" />
+          <img src="images/banner/banner3.jpg" />
         </div>
       </div>
       <div>
@@ -56,7 +56,7 @@ export const EventBanner = () => {
           onClick={() => handleSide("up")}
           disabled={notAllowUp}
         >
-          <img src="images/icons8-collapse-arrow-48.png" alt="up" />
+          <img src="images/icons/upward-arrow.png" alt="up" />
         </button>
       </div>
       <div>
@@ -65,7 +65,7 @@ export const EventBanner = () => {
           onClick={() => handleSide("down")}
           disabled={notAllowDown}
         >
-          <img src="images/icons8-expand-arrow-48.png" alt="down" />
+          <img src="images/icons/downward-arrow.png" alt="down" />
         </button>
       </div>
     </article>
